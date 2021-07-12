@@ -1,0 +1,84 @@
+# Visual
+[[plugins]]
+repo = 'jacoborus/tender.vim'
+
+[[plugins]]
+repo = 'vim-airline/vim-airline'
+
+[[plugins]]
+repo = 'vim-airline/vim-airline-themes'
+
+[[plugins]]
+repo = 'weirongxu/plantuml-previewer.vim'
+hook_add = '''
+let g:plantuml_previewer#save_format = 'svg'
+'''
+
+[[plugins]]
+repo = 'tyru/open-browser.vim'
+
+[[plugins]]
+repo = 'aklt/plantuml-syntax'
+
+[[plugins]]
+repo = 'ryanoasis/vim-devicons'
+
+## Format
+[[plugins]]
+repo = 'dhruvasagar/vim-table-mode'
+
+[[plugins]]
+repo = 'tpope/vim-surround'
+
+[[plugins]]
+repo = 'Townk/vim-autoclose'
+
+[[plugins]]
+repo = 'nvim-lua/completion-nvim'
+
+## Window
+[[plugins]]
+repo = 'simeji/winresizer'
+hook_source = '''
+let g:winresizer_vert_resize = 1
+let g:winresizer_horiz_resize = 1
+'''
+
+[[plugins]]
+repo = 'kassio/neoterm'
+hook_add = '''
+	let g:neoterm_autoinsert = 1
+	let g:neoterm_autoscroll = 1
+	let g:neoterm_default_mod = "belowright"
+    let g:neoterm_size = 10
+'''
+
+## LSP
+[[plugins]]
+repo = 'neoclide/coc.nvim'
+hook_source = '''
+inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+let g:coc_global_extensions = [
+  'coc-json',
+  'coc-git',
+  'coc-yaml',
+  'coc-explorer',
+  'coc-prettier',
+  'coc-graphql',
+  'coc-toml',
+  'coc-tsserver',
+  'coc-sh',
+  'coc-java',
+  'coc-go',
+  'coc-clangd',
+  'coc-pyright',
+  'coc-solargraph',
+  'coc-html',
+  'coc-cmake'
+]
+'''
+
+[[plugins]]
+repo = 'iamcco/markdown-preview.nvim'
+on_ft = ['markdown', 'pandoc.markdown', 'rmd']
+build = 'sh -c "cd app && yarn install"'

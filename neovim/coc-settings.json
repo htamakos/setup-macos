@@ -1,0 +1,49 @@
+{
+  "java.format.enabled": true,
+  "java.format.settings.profile": "GoogleStyle",
+  "java.format.onType.enabled": false,
+  "java.completion.enabled": true,
+  "java.completion.maxResults": 20,
+  "java.import.gradle.offline.enabled": false,
+  "python.linting.enabled": true,
+  "python.linting.mypyEnabled": true,
+  "explorer.icon.enableNerdfont": true,
+  "explorer.width": 30,
+  "explorer.trash.command": "trash-put %s",
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "markdown",
+    "ts",
+    "typescript",
+    "json",
+    "rust",
+    "go",
+    "python"
+  ],
+  "languageserver": {
+    "ccls": {
+      "command": "ccls",
+      "filetypes": ["cc", "cpp", "c++", "cuda", "objc", "objcpp"],
+      "rootPatterns": [".ccls-root", "compile_commands.json", ".ccls"],
+      "initializationOptions": {
+        "cache": {
+          "directory": "/tmp/ccls-cache"
+        },
+        "client": {
+          "snipetSupport": true
+        },
+        "index": {
+          "onChange": true
+        },
+        "highlight": { "lsRanges": true }
+      }
+    },
+    "terraform": {
+      "command": "terraform-ls",
+      "args": ["serve"],
+      "filetypes": ["terraform", "tf"],
+      "settings": {},
+      "initializationOptions": {}
+    }
+  }
+}
