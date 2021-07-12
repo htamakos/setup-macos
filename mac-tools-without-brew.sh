@@ -23,3 +23,6 @@ npm install -g npm
 
 # trash-cli
 pip3 install trash-cli
+
+# gitconfig
+cp -f .gitconfig ~/.gitconfig

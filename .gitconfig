@@ -1,0 +1,7 @@
+[user]
+    email = tmkshrnr@gmail.com
+    name = htamakos
+[core]
+    editor = vim -c \"set fenc=utf-8\"
+[init]
+    defaultBranch = main
