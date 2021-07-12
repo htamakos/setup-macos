@@ -47,10 +47,10 @@ let g:winresizer_horiz_resize = 1
 [[plugins]]
 repo = 'kassio/neoterm'
 hook_add = '''
-	let g:neoterm_autoinsert = 1
-	let g:neoterm_autoscroll = 1
-	let g:neoterm_default_mod = "belowright"
-    let g:neoterm_size = 10
+let g:neoterm_autoinsert = 1
+let g:neoterm_autoscroll = 1
+let g:neoterm_default_mod = "belowright"
+let g:neoterm_size = 10
 '''
 
 ## LSP
@@ -58,23 +58,23 @@ hook_add = '''
 repo = 'neoclide/coc.nvim'
 hook_source = '''
 inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
-let g:coc_global_extensions = [
-  'coc-json',
-  'coc-git',
-  'coc-yaml',
-  'coc-explorer',
-  'coc-prettier',
-  'coc-graphql',
-  'coc-toml',
-  'coc-tsserver',
-  'coc-sh',
-  'coc-java',
-  'coc-go',
-  'coc-clangd',
-  'coc-pyright',
-  'coc-solargraph',
-  'coc-html',
-  'coc-cmake'
+let g:coc_global_extensions = [\
+  'coc-json',\
+  'coc-git',\
+  'coc-yaml',\
+  'coc-explorer',\
+  'coc-prettier',\
+  'coc-graphql',\
+  'coc-toml',\
+  'coc-tsserver',\
+  'coc-sh',\
+  'coc-java',\
+  'coc-go',\
+  'coc-clangd',\
+  'coc-pyright',\
+  'coc-solargraph',\
+  'coc-html',\
+  'coc-cmake'\
 ]
 '''
 
