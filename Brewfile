@@ -63,4 +63,4 @@ cask "karabiner-elements"
 
 # Mas
 mas "Slack", id: 803453959
-
+mas "Kindle", id: 405399194
