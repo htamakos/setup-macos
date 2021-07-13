@@ -17,6 +17,7 @@ curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh >
 sh ./installer.sh ~/.cache/dein
 mkdir -p ~/.config/nvim
 cp -f ./neovim/* ~/.config/nvim/
+cp -f .gitconfig ~/.gitconfig
 
 # npm
 npm install -g npm
