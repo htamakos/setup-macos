@@ -40,6 +40,12 @@ brew "bat"
 
 # Runtime
 brew "node"
+brew "nvm"
+brew "go"
+brew "rust"
+brew "rustup-init"
+brew "llvm"
+cask "miniconda"
 
 # Others
 brew "mas"
