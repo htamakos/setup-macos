@@ -102,3 +102,12 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$(brew --prefix)/opt/nvm/nvm.sh" ] && . "$(brew --prefix)/opt/nvm/nvm.sh" # This loads nvm
 [ -s "$(brew --prefix)/opt/nvm/etc/bash_completion.d/nvm" ] && . "$(brew --prefix)/opt/nvm/etc/bash_completion.d/nvm" # This loads nvm bash_completion
 nvm use lts/*
+
+#------------------------#
+# Java
+#------------------------#
+export JAVA_HOME=(/opt/homebrew/opt/java11(N-/))
+path=(
+    ($JAVA_HOME/bin(N-/))
+    $path
+)

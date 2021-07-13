@@ -46,6 +46,9 @@ brew "rust"
 brew "rustup-init"
 brew "llvm"
 cask "miniconda"
+brew "gradle"
+brew "openjdk@11"
+brew "google-java-format"
 
 # Others
 brew "mas"
