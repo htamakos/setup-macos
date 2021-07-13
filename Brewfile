@@ -1,4 +1,5 @@
 tap "homebrew/cask"
+tap "homebrew/core"
 tap "cantino/mcfly"
 tap "clementtsang/bottom"
 
@@ -54,6 +55,7 @@ brew "google-java-format"
 brew "mas"
 brew "peco"
 brew "ghq"
+brew "terraform-ls"
 
 # GUI 
 cask "alfred"
