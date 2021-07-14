@@ -51,11 +51,14 @@ brew "gradle"
 brew "openjdk@11"
 brew "google-java-format"
 
+# IaC Tool
+brew "terraform"
+brew "terraform-ls"
+
 # Others
 brew "mas"
 brew "peco"
 brew "ghq"
-brew "terraform-ls"
 
 # GUI 
 cask "alfred"
