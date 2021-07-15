@@ -55,6 +55,9 @@ brew "google-java-format"
 brew "terraform"
 brew "terraform-ls"
 
+# Virtual Machine
+cask "utm"
+
 # Others
 brew "mas"
 brew "peco"
