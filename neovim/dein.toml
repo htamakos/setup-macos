@@ -56,7 +56,7 @@ let g:neoterm_size = 10
 ## LSP
 [[plugins]]
 repo = 'neoclide/coc.nvim'
-hook_source = '''
+hook_add = '''
 inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 let g:coc_global_extensions = [\
   'coc-json',\
