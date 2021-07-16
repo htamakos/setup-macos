@@ -207,3 +207,6 @@ inoremap <nowait><expr> <C-b> coc#float#has_scroll() ? "\<c-r>=coc#float#scroll(
 
 " Use K to show documentation in preview window
 nnoremap <silent> K :call <SID>show_documentation()<CR>
+
+set clipboard+=unnamedplus
+vnoremap <leader>c :OSCYank<CR>
