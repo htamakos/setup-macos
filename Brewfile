@@ -71,6 +71,7 @@ cask "karabiner-elements"
 cask "skitch"
 cask "zoom"
 cask "xmind"
+cask "microsoft-teams"
 
 # Mas
 mas "Slack", id: 803453959
