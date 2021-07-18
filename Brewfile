@@ -70,6 +70,7 @@ cask "iterm2"
 cask "karabiner-elements"
 cask "skitch"
 cask "zoom"
+cask "xmind"
 
 # Mas
 mas "Slack", id: 803453959
