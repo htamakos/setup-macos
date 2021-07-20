@@ -14,6 +14,9 @@ brew "kubectl"
 brew "helm"
 brew "kind"
 
+# Cloud
+cask "google-cloud-sdk"
+
 # Modern Unix Commands
 brew "ag"
 brew "fd"
