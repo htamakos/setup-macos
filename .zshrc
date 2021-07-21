@@ -46,19 +46,12 @@ zinit light zsh-users/zsh-autosuggestions
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-## 履歴保存管理
-HISTFILE=$ZDOTDIR/.zsh-history
+HISTFILE=$HOME/.zsh-history
 HISTSIZE=100000
 SAVEHIST=1000000
-
-## 他のzshと履歴を共有
 setopt inc_append_history
 setopt share_history
-
-## パスを直接入力してもcdする
 setopt AUTO_CD
-
-## 環境変数を補完
 setopt AUTO_PARAM_KEYS
 
 #------------------------#
