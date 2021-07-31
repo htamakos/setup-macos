@@ -65,6 +65,7 @@ cask "utm"
 brew "mas"
 brew "peco"
 brew "ghq"
+cask "google-japanese-ime"
 
 # GUI 
 cask "alfred"
