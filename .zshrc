@@ -106,6 +106,11 @@ path=(
 )
 
 #------------------------#
+# Rust
+#------------------------#
+source $HOME/.cargo/env
+
+#------------------------#
 # gcloud
 #------------------------#
 source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"

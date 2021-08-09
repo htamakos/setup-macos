@@ -27,3 +27,8 @@ pip3 install trash-cli
 
 # gitconfig
 cp -f .gitconfig ~/.gitconfig
+
+# Rust
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+source $HOME/.cargo/env
+rustup component add rls rust-analysis rust-src

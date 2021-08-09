@@ -82,4 +82,6 @@ mas "Slack", id: 803453959
 mas "Kindle", id: 405399194
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "LINE", id: 539883307
+mas "Craft", id: 1487937127
 #mas "PhotoScape X - Photo Editor", id: 929507092
+
