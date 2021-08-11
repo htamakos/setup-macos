@@ -105,6 +105,9 @@ let mapleader = "\<Space>"
 let maplocalleader = "\<Space>"
 
 "" Custom Key Mapping
+nnoremap d "_d
+xnoremap d "_d
+xnoremap p "_dP
 nnoremap ; :
 nnoremap : ;
 inoremap <silent> jj <ESC>
