@@ -108,6 +108,7 @@ let maplocalleader = "\<Space>"
 nnoremap d "_d
 xnoremap d "_d
 xnoremap p "_dP
+nnoremap x "_x
 nnoremap ; :
 nnoremap : ;
 inoremap <silent> jj <ESC>
