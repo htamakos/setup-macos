@@ -76,6 +76,7 @@ cask "skitch"
 cask "zoom"
 cask "xmind"
 cask "microsoft-teams"
+cask "brave-browser"
 
 # Mas
 mas "Slack", id: 803453959
@@ -83,6 +84,5 @@ mas "Kindle", id: 405399194
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "Microsoft To Do", id: 1274495053
 mas "LINE", id: 539883307
-mas "Craft", id: 1487937127
 mas "PhotoScape X - Photo Editor", id: 929507092
 
