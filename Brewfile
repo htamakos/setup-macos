@@ -13,6 +13,7 @@ cask "docker"
 brew "kubectl"
 brew "helm"
 brew "kind"
+brew "kustomize"
 
 # Cloud
 cask "google-cloud-sdk"
@@ -53,6 +54,8 @@ cask "miniconda"
 brew "gradle"
 brew "openjdk@11"
 brew "google-java-format"
+brew "pipenv"
+brew "poetry"
 
 # IaC Tool
 brew "terraform"
@@ -77,6 +80,7 @@ cask "zoom"
 cask "xmind"
 cask "microsoft-teams"
 cask "brave-browser"
+cask "miro"
 
 # Mas
 mas "Slack", id: 803453959
