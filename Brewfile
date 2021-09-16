@@ -7,6 +7,7 @@ cask_args appdir: "/Applications"
 
 # Text Editor
 brew "neovim"
+cask "visual-studio-code"
 
 # k8s/docker
 cask "docker"
@@ -17,6 +18,7 @@ brew "kustomize"
 
 # Cloud
 cask "google-cloud-sdk"
+brew "awscli"
 
 # Modern Unix Commands
 brew "ag"
@@ -42,6 +44,7 @@ brew "delta"
 brew "lsd"
 brew "exa"
 brew "bat"
+brew "wget"
 
 # Runtime
 brew "node"
@@ -60,6 +63,7 @@ brew "poetry"
 # IaC Tool
 brew "terraform"
 brew "terraform-ls"
+brew "tflint"
 
 # Virtual Machine
 cask "utm"
@@ -69,6 +73,7 @@ brew "mas"
 brew "peco"
 brew "ghq"
 cask "google-japanese-ime"
+brew "tree"
 
 # GUI 
 cask "alfred"
