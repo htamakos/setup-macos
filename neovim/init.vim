@@ -107,8 +107,13 @@ let maplocalleader = "\<Space>"
 "" Custom Key Mapping
 nnoremap d "_d
 xnoremap d "_d
+vnoremap d "_d
+nnoremap p "_dP
 xnoremap p "_dP
+vnoremap p "_dP
 nnoremap x "_x
+xnoremap x "_x
+vnoremap x "_x
 nnoremap ; :
 nnoremap : ;
 inoremap <silent> jj <ESC>
@@ -214,3 +219,17 @@ nnoremap <silent> K :call <SID>show_documentation()<CR>
 
 set clipboard+=unnamedplus
 vnoremap <leader>c :OSCYank<CR>
+
+" Formatting selected code.
+xmap <leader>f  <Plug>(coc-format-selected)
+nmap <leader>f  <Plug>(coc-format-selected)
+
+" Applying codeAction to the selected region.
+" Example: `<leader>aap` for current paragraph
+xmap <leader>a  <Plug>(coc-codeaction-selected)
+nmap <leader>a  <Plug>(coc-codeaction-selected)
+
+" Remap keys for applying codeAction to the current buffer.
+nmap <leader>ac  <Plug>(coc-codeaction)
+" Apply AutoFix to problem on the current line.
+nmap <leader>qf  <Plug>(coc-fix-current)
