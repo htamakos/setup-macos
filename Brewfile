@@ -19,6 +19,7 @@ brew "kustomize"
 # Cloud
 cask "google-cloud-sdk"
 brew "awscli"
+brew "oci-cli"
 
 # Modern Unix Commands
 brew "ag"
@@ -48,6 +49,7 @@ brew "wget"
 
 # Runtime
 brew "node"
+brew "yarn"
 brew "nvm"
 brew "go"
 brew "rust"
@@ -76,10 +78,13 @@ brew "ghq"
 cask "google-japanese-ime"
 brew "tree"
 cask "discord"
+brew "coreutils"
+brew "zsh-completions"
 
 # GUI 
 cask "alfred"
 cask "firefox"
+cask "google-chrome"
 cask "iterm2"
 cask "karabiner-elements"
 cask "skitch"
