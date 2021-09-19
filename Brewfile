@@ -94,6 +94,7 @@ cask "microsoft-teams"
 cask "brave-browser"
 cask "miro"
 cask "android-studio"
+cask "deepl"
 
 # Mas
 mas "Slack", id: 803453959
