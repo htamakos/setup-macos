@@ -62,6 +62,7 @@ cask "adoptopenjdk"
 brew "google-java-format"
 brew "pipenv"
 brew "poetry"
+brew "haskell-stack"
 
 # IaC Tool
 brew "terraform"
