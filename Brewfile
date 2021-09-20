@@ -63,6 +63,7 @@ brew "google-java-format"
 brew "pipenv"
 brew "poetry"
 brew "haskell-stack"
+brew "haskell-language-server"
 
 # IaC Tool
 brew "terraform"
