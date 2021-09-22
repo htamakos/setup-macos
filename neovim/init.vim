@@ -52,7 +52,6 @@ if(has("termguicolors"))
   set termguicolors
 endif
 
-let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 syntax enable
 colorscheme tender
 let g:airline_theme = 'tender'
@@ -60,7 +59,6 @@ let g:airline_theme = 'tender'
 filetype plugin indent on
 syntax on
 syntax enable
-set termguicolors
 set tabstop=4 softtabstop=4 expandtab shiftwidth=4 smarttab
 set list
 set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
@@ -77,11 +75,11 @@ set visualbell
 set showmatch
 set laststatus=2
 set wildmode=list:longest
-
 set ignorecase
 set smartcase
 set incsearch
 set wrapscan
+set foldmethod=syntax
 
 "" FileType
 autocmd FileType python setl autoindent
@@ -108,9 +106,6 @@ let maplocalleader = "\<Space>"
 nnoremap d "_d
 xnoremap d "_d
 vnoremap d "_d
-nnoremap p "_dP
-xnoremap p "_dP
-vnoremap p "_dP
 nnoremap x "_x
 xnoremap x "_x
 vnoremap x "_x
@@ -233,3 +228,17 @@ nmap <leader>a  <Plug>(coc-codeaction-selected)
 nmap <leader>ac  <Plug>(coc-codeaction)
 " Apply AutoFix to problem on the current line.
 nmap <leader>qf  <Plug>(coc-fix-current)
+
+nnoremap <silent><nowait> <space>d  :<C-u>CocList diagnostics<cr>
+" Show commands.
+nnoremap <silent><nowait> <space>c  :<C-u>CocList commands<cr>
+" Find symbol of current document.
+nnoremap <silent><nowait> <space>o  :<C-u>CocList outline<cr>
+" Search workspace symbols.
+nnoremap <silent><nowait> <space>s  :<C-u>CocList -I symbols<cr>
+" Do default action for next item.
+nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>
+" Do default action for previous item.
+nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
+" Resume latest coc list.
+nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>

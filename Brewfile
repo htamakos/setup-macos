@@ -65,6 +65,7 @@ brew "poetry"
 brew "haskell-stack"
 brew "haskell-language-server"
 brew "ocaml"
+brew "opam"
 
 # IaC Tool
 brew "terraform"
@@ -83,6 +84,7 @@ brew "tree"
 cask "discord"
 brew "coreutils"
 brew "zsh-completions"
+brew "wireshark"
 
 # GUI 
 cask "alfred"
