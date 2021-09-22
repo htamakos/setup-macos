@@ -64,6 +64,7 @@ brew "pipenv"
 brew "poetry"
 brew "haskell-stack"
 brew "haskell-language-server"
+brew "ocaml"
 
 # IaC Tool
 brew "terraform"
