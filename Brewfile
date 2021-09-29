@@ -85,7 +85,7 @@ brew "tree"
 cask "discord"
 brew "coreutils"
 brew "zsh-completions"
-brew "wireshark"
+cask "wireshark"
 brew "dbt"
 
 # GUI 
