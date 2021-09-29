@@ -2,6 +2,7 @@ tap "homebrew/cask"
 tap "homebrew/core"
 tap "cantino/mcfly"
 tap "clementtsang/bottom"
+tap "dbt-labs/dbt"
 
 cask_args appdir: "/Applications"
 
@@ -85,6 +86,7 @@ cask "discord"
 brew "coreutils"
 brew "zsh-completions"
 brew "wireshark"
+brew "dbt"
 
 # GUI 
 cask "alfred"
