@@ -87,6 +87,8 @@ brew "coreutils"
 brew "zsh-completions"
 cask "wireshark"
 brew "dbt"
+brew "w3m"
+brew "tmux"
 
 # GUI 
 cask "alfred"
