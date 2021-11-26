@@ -2,7 +2,6 @@ tap "homebrew/cask"
 tap "homebrew/core"
 tap "cantino/mcfly"
 tap "clementtsang/bottom"
-tap "dbt-labs/dbt"
 
 cask_args appdir: "/Applications"
 
@@ -86,7 +85,6 @@ cask "discord"
 brew "coreutils"
 brew "zsh-completions"
 cask "wireshark"
-brew "dbt"
 brew "w3m"
 brew "tmux"
 
@@ -104,13 +102,14 @@ cask "brave-browser"
 cask "miro"
 cask "android-studio"
 cask "deepl"
+cask "notion"
+cask "drawio"
 
 # Mas
-mas "Slack", id: 803453959
-mas "Kindle", id: 405399194
-mas "Microsoft Remote Desktop", id: 1295203466
-mas "Microsoft To Do", id: 1274495053
-mas "LINE", id: 539883307
-mas "PhotoScape X - Photo Editor", id: 929507092
-mas "Xcode", id: 497799835
-
+#mas "Slack", id: 803453959
+#mas "Kindle", id: 405399194
+#mas "Microsoft Remote Desktop", id: 1295203466
+#mas "Microsoft To Do", id: 1274495053
+#mas "LINE", id: 539883307
+#mas "PhotoScape X - Photo Editor", id: 929507092
+#mas "Xcode", id: 497799835
